@@ -1,0 +1,480 @@
+:root {
+    --default-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+        Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+        "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+        "Source Han Sans CN", sans-serif;
+  }
+  
+  .main-container {
+    overflow: hidden;
+  }
+  
+  .main-container,
+  .main-container * {
+    box-sizing: border-box;
+  }
+  
+  input,
+  select,
+  textarea,
+  button {
+    outline: 0;
+  }
+  
+  .main-container {
+    position: relative;
+    width: 430px;
+    height: 932px;
+    margin: 0 auto;
+    background: #a5cdc8;
+    overflow: hidden;
+  }
+  .section {
+    position: relative;
+    width: 430px;
+    height: 142px;
+    margin: 0 0 0 0;
+    background: #ffffff;
+    overflow: visible auto;
+  }
+  .box {
+    position: relative;
+    width: 372.5px;
+    height: 30px;
+    margin: 39.5px 0 0 25px;
+    z-index: 46;
+  }
+  .fav {
+    position: absolute;
+    width: 33px;
+    height: 30px;
+    top: 0;
+    left: 339.5px;
+    background: url(./assets/images/8076ffbb-8297-434d-bd7e-17929b19338d.png)
+        no-repeat center;
+    background-size: 100% 100%;
+    z-index: 11;
+  }
+  .user_alt {
+    position: absolute;
+    width: 3.22%;
+    height: 40%;
+    top: 10%;
+    left: 81.61%;
+    background: url(./assets/images/f4e0ab88-a09a-466b-8333-bbf8abd39740.png)
+        no-repeat center;
+    background-size: 100% 100%;
+    z-index: 45;
+    border-radius: 50%;
+  }
+  .text {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 24px;
+    top: 4.5px;
+    left: 0;
+    color: #27292f;
+    font-family: LINE Seed Sans TH, var(--default-font-family);
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: left;
+    white-space: nowrap;
+    letter-spacing: 0.15px;
+    z-index: 4;
+  }
+  .img-2 {
+    position: absolute;
+    width: 6.43%;
+    height: 45%;
+    top: 60%;
+    left: 80.01%;
+    background: url(./assets/images/feb992ff-16e1-4372-8f6e-ab2f5c4f8742.png)
+        no-repeat center;
+    background-size: 100% 100%;
+    z-index: 46;
+  }
+  /* .box-2 {
+    position: relative;
+    width: 396px;
+    height: 43px;
+    margin: 15.5px 0 0 17px;
+    background: #e6e6e6;
+    z-index: 2;
+    overflow: visible auto;
+    border-radius: 60px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  }
+  .find {
+    position: relative;
+    width: 17.49px;
+    height: 17.49px;
+    margin: 13px 0 0 14px;
+    background: url(./assets/images/bf40348e-1257-4814-9813-4b5bb698654d.png)
+        no-repeat center;
+    background-size: 100% 100%;
+    z-index: 8;
+  } */
+  
+  /* ช่องค้นหา */
+  .box-2 {
+    position: relative;
+    width: 396px;
+    height: 43px;
+    margin: 15.5px 0 0 17px;
+    background: #e6e6e6;
+    z-index: 2;
+    border-radius: 60px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    display: flex;
+    align-items: center;
+    padding-right: 15px;
+  }
+  
+  .search-input {
+    width: 100%;
+    height: 100%;
+    padding: 0 45px 0 20px;
+    border: none;
+    border-radius: 60px;
+    background: #e6e6e6;
+    font-size: 16px;
+    outline: none;
+  }
+  
+  .find {
+    position: absolute;
+    right: 15px;
+    width: 17.49px;
+    height: 17.49px;
+    background: url(./assets/images/bf40348e-1257-4814-9813-4b5bb698654d.png)
+      no-repeat center;
+    background-size: 100% 100%;
+    cursor: pointer;
+  }
+  
+  /* ช่องค้นหา */
+  .box-3 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    width: 392px;
+    height: 114px;
+    margin: 20px 0 0 19px;
+    z-index: 42;
+  }
+  .wrapper {
+    flex-shrink: 0;
+    position: relative;
+    width: 114px;
+    height: 114px;
+    background: #ffffff;
+    z-index: 42;
+    border-radius: 28px;
+  }
+  .img_box1 {
+    position: relative;
+    width: 37px;
+    height: 37px;
+    margin: 38px 0 0 39px;
+    background: url(./assets/images/e5356afa-7820-478d-9af7-e5959beac969.png)
+        no-repeat center;
+    background-size: cover;
+    z-index: 43;
+  }
+  .box-4 {
+    flex-shrink: 0;
+    position: relative;
+    width: 114px;
+    height: 114px;
+    background: #ffffff;
+    z-index: 36;
+    border-radius: 28px;
+  }
+  .img_box2 {
+    position: relative;
+    width: 37px;
+    height: 37px;
+    margin: 38px 0 0 39px;
+    background: url(./assets/images/c4791767-8dd5-49ad-87a9-6021ef51e37d.png)
+        no-repeat center;
+    background-size: cover;
+    z-index: 37;
+  }
+  .group {
+    flex-shrink: 0;
+    position: relative;
+    width: 114px;
+    height: 114px;
+    background: #ffffff;
+    z-index: 13;
+    border-radius: 28px;
+  }
+  .img_box3 {
+    position: relative;
+    width: 37px;
+    height: 37px;
+    margin: 38px 0 0 39px;
+    background: url(./assets/images/bf4e630a-7537-4d09-b3c8-bc0ffacb1900.png)
+        no-repeat center;
+    background-size: cover;
+    z-index: 14;
+  }
+  .text-2 {
+    display: block;
+    position: relative;
+    height: 24px;
+    margin: 15px 0 0 19px;
+    color: #27292f;
+    font-family: LINE Seed Sans TH, var(--default-font-family);
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: left;
+    white-space: nowrap;
+    letter-spacing: 0.15px;
+    z-index: 5;
+  }
+  .section-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 407px;
+    height: 90px;
+    margin: 2px 0 0 11px;
+    background: #ffffff;
+    z-index: 9;
+    border-radius: 25px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  }
+  .text-3 {
+    flex-shrink: 0;
+    position: relative;
+    height: 24px;
+    color: #33363f;
+    font-family: LINE Seed Sans TH, var(--default-font-family);
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    white-space: nowrap;
+    letter-spacing: 0.15px;
+    z-index: 9;
+  }
+  .text-4 {
+    display: block;
+    position: relative;
+    height: 24px;
+    margin: 15px 0 0 19px;
+    color: #27292f;
+    font-family: LINE Seed Sans TH, var(--default-font-family);
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: left;
+    white-space: nowrap;
+    letter-spacing: 0.15px;
+    z-index: 6;
+  }
+  .group-2 {
+    position: relative;
+    width: 430px;
+    height: 538px;
+    margin: 2px 0 0 0;
+    background: #ffffff;
+    z-index: 1;
+    overflow: visible auto;
+    border-radius: 25px;
+  }
+  .section-3 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    width: 373px;
+    height: 114px;
+    margin: 34px 0 0 28px;
+    z-index: 20;
+  }
+  .wrapper-2 {
+    flex-shrink: 0;
+    position: relative;
+    width: 177px;
+    height: 114px;
+    background: #e6e6e6;
+    z-index: 20;
+    border-radius: 28px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  }
+  .Restaurant_pic1 {
+    position: relative;
+    width: 37px;
+    height: 37px;
+    margin: 38px 0 0 70px;
+    background: url(./assets/images/b2ae2e4c-433f-4b7c-b607-993d5ea7b5f1.png)
+        no-repeat center;
+    background-size: cover;
+    z-index: 21;
+  }
+  .text-5 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: relative;
+    width: 82px;
+    height: 24px;
+    margin: 11px 0 0 47px;
+    color: #27292f;
+    font-family: LINE Seed Sans TH, var(--default-font-family);
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: center;
+    white-space: nowrap;
+    letter-spacing: 0.15px;
+    z-index: 22;
+  }
+  .group-3 {
+    flex-shrink: 0;
+    position: relative;
+    width: 177px;
+    height: 114px;
+    background: #e6e6e6;
+    z-index: 16;
+    border-radius: 28px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  }
+  .Restaurant_pic2 {
+    position: relative;
+    width: 37px;
+    height: 37px;
+    margin: 38px 0 0 70px;
+    background: url(./assets/images/42257a78-7605-4573-8199-80ebe67e69de.png)
+        no-repeat center;
+    background-size: cover;
+    z-index: 17;
+  }
+  .section-4 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    width: 373px;
+    height: 114px;
+    margin: 19px 0 0 29px;
+    z-index: 30;
+  }
+  .box-5 {
+    flex-shrink: 0;
+    position: relative;
+    width: 177px;
+    height: 114px;
+    background: #e6e6e6;
+    z-index: 24;
+    border-radius: 28px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  }
+  .Restaurant_pic3 {
+    position: relative;
+    width: 37px;
+    height: 37px;
+    margin: 38px 0 0 69px;
+    background: url(./assets/images/4a8e7c5c-a742-4a41-ac1f-71e4e6aa5ee2.png)
+        no-repeat center;
+    background-size: cover;
+    z-index: 25;
+  }
+  .wrapper-3 {
+    flex-shrink: 0;
+    position: relative;
+    width: 177px;
+    height: 114px;
+    background: #e6e6e6;
+    z-index: 30;
+    border-radius: 28px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  }
+  .Restaurant_pic4 {
+    position: relative;
+    width: 37px;
+    height: 37px;
+    margin: 38px 0 0 69px;
+    background: url(./assets/images/35821b0b-358f-4e8c-b720-006d6c932bde.png)
+        no-repeat center;
+    background-size: cover;
+    z-index: 31;
+  }
+  .section-5 {
+    position: relative;
+    width: 373px;
+    height: 150px;
+    margin: 19px 0 0 28px;
+    z-index: 39;
+  }
+  .section-6 {
+    position: absolute;
+    width: 47.45%;
+    height: 76%;
+    top: 0;
+    left: 0;
+    background: #e6e6e6;
+    z-index: 27;
+    border-radius: 28px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  }
+  .Restaurant_pic5 {
+    position: relative;
+    width: 37px;
+    height: 37px;
+    margin: 38px 0 0 70px;
+    background: url(./assets/images/cf9f15a4-785f-425a-87ce-1dce943f1caa.png)
+        no-repeat center;
+    background-size: cover;
+    z-index: 28;
+  }
+  .section-7 {
+    position: absolute;
+    width: 47.45%;
+    height: 76%;
+    top: 0;
+    left: 52.55%;
+    background: #e6e6e6;
+    z-index: 33;
+    border-radius: 28px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  }
+  .Restaurant_pic6 {
+    position: relative;
+    width: 37px;
+    height: 37px;
+    margin: 38px 0 0 70px;
+    background: url(./assets/images/fc9f9f73-3446-4ccd-b63e-8fa2214b3c97.png)
+        no-repeat center;
+    background-size: cover;
+    z-index: 34;
+  }
+  .box-6 {
+    position: absolute;
+    width: 21.72%;
+    height: 54%;
+    top: 46%;
+    left: 77.48%;
+    background: #ffac60;
+    z-index: 39;
+    border-radius: 28px;
+  }
+  .bag {
+    position: relative;
+    width: 45px;
+    height: 45px;
+    margin: 18px 0 0 18px;
+    background: url(./assets/images/8190859e-3897-4523-b9c7-7976bf4754ea.png)
+        no-repeat center;
+    background-size: cover;
+    z-index: 40;
+  }
+  
