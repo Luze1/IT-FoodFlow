@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>เมนูร้านอาหาร</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100">
+
+    <!-- Header -->
+    <header class="bg-white p-4 shadow-md">
+        <h1 class="text-xl font-bold">เมนูร้าน XYZ</h1>
+        <a href="restaurant.html" class="text-blue-500">กลับไปที่ร้านอาหาร</a>
+    </header>
+
+    <!-- ตะกร้าสินค้า -->
+    <section class="p-4">
+        <h2 class="text-lg font-semibold mb-4">รายการที่สั่ง</h2>
+        <div class="flex justify-between bg-white p-4 shadow rounded-md mb-2">
+            <p>กะเพราหมูกรอบ</p>
+            <div class="flex items-center">
+                <button class="px-2 py-1 bg-gray-300 rounded">-</button>
+                <span class="px-4">2</span>
+                <button class="px-2 py-1 bg-gray-300 rounded">+</button>
+            </div>
+        </div>
+        <div class="flex justify-between bg-white p-4 shadow rounded-md mb-2">
+            <p>ผัดไทกุ้งสด</p>
+            <div class="flex items-center">
+                <button class="px-2 py-1 bg-gray-300 rounded">-</button>
+                <span class="px-4">1</span>
+                <button class="px-2 py-1 bg-gray-300 rounded">+</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- ปุ่มไปที่การชำระเงิน -->
+    <div class="fixed bottom-4 right-4">
+        <button class="bg-orange-500 p-4 text-white rounded-md shadow-lg">
+            ชำระเงิน 90 บาท
+        </button>
+    </div>
+
+</body>
+</html>
