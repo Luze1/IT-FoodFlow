@@ -1,0 +1,104 @@
+:root {
+    --default-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+        Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+        "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+        "Source Han Sans CN", sans-serif;
+}
+
+.main-container {
+    overflow: hidden;
+}
+
+.main-container,
+.main-container * {
+    box-sizing: border-box;
+}
+
+input,
+select,
+textarea,
+button {
+    outline: 0;
+}
+
+.main-container {
+    position: relative;
+    width: 430px;
+    height: 932px;
+    margin: 0 auto;
+    background: #a5cdc8;
+    overflow: hidden;
+}
+.box {
+    position: relative;
+    width: 390px;
+    height: 300px;
+    margin: 316px 0 0 20px;
+    font-size: 0px;
+    background: #ffffff;
+    overflow: visible auto;
+    border-radius: 25px;
+}
+.text {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: relative;
+    width: 313px;
+    height: 24px;
+    margin: 84px 0 0 39px;
+    color: #27292f;
+    font-family: LINE Seed Sans TH, var(--default-font-family);
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: center;
+    white-space: nowrap;
+    letter-spacing: 0.15px;
+    z-index: 1;
+}
+.box-2 {
+    position: relative;
+    width: 276px;
+    height: 59px;
+    margin: 36px 0 0 57px;
+    background: #e6e6e6;
+    z-index: 3;
+    border-radius: 28px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+.text-2 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: absolute;
+    width: 106px;
+    height: 24px;
+    top: calc(50% - 11.5px);
+    left: calc(50% - 53px);
+    color: #27292f;
+    font-family: LINE Seed Sans TH, var(--default-font-family);
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: center;
+    white-space: nowrap;
+    letter-spacing: 0.15px;
+    z-index: 4;
+}
+.text-3 {
+    display: block;
+    position: relative;
+    height: 24px;
+    margin: 24px 0 0 145px;
+    color: #c0c0c0;
+    font-family: LINE Seed Sans TH, var(--default-font-family);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: left;
+    text-decoration: underline;
+    white-space: nowrap;
+    letter-spacing: 0.15px;
+    z-index: 5;
+}
